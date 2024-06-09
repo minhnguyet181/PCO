@@ -1,0 +1,224 @@
+*{
+    background-color: black;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header section */
+header h1{
+    padding-top: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 12px;
+} 
+
+header span{
+    padding-top: 5rem;
+    text-align: center;
+    color: #ffee00;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+header p{
+    padding-top: 0;
+    font-style: italic;
+    text-decoration: wavy;
+    text-align: center;
+    color: #ffee00;
+    font-size: 15px;
+    text-transform: none;
+}
+
+/* product information section */
+.product-in4 .box-container{
+    padding-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.product-in4 .box-container .box-image{
+    flex: 1 1 auto;
+}
+
+.product-in4 .box-container .box-image p{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.product-in4 .box-container .box-image img{
+    width: 350px;
+    height: 550px;
+}
+
+.product-in4 .box-container .box-content{
+    flex: 1 1 auto;
+}
+
+.product-in4 .box-container .box-content h2{
+    color: #fff;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 7px;
+}
+
+.product-in4 .box-container .box-content h3{
+    color: #ffff00;
+    font-size: 25px;
+    padding-top: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.product-in4 .box-container .box-content h4{
+    color: #7a7a7a;
+    font-size: 20px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.product-in4 .box-container .box-content h5{
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.product-in4 .box-container .box-content ul li{
+    color: #fff;
+    font-size: 15px;
+    padding: 0.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    word-spacing: 0.3rem;
+}
+
+/* delivery address part */
+.head .heading h1{
+    padding-top: 9rem;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.head .heading span{
+    padding-top: 7rem;
+    text-align: center;
+    color: #ffee00;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.head .heading p{
+    color: #fff;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.delivery{
+    justify-content: center;
+    padding-left: 7rem;
+    padding-right: 7rem; 
+}
+
+.delivery .row form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #9c9c9c00;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0);
+    border: none;
+    border: solid rgb(255, 217, 0);
+    border-radius: .5rem; 
+}
+
+.delivery .row form .box{
+    margin: 0.1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    color: #f8f8fd;
+    text-transform: none;
+    border: none;
+    border: .3rem solid rgba(0,0,0,.1);
+    border-radius: .5rem; 
+    width: 100%;
+}
+
+.delivery .row form .box1{
+    background-color: #191823;
+    margin: 0.1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    color: #f8f8fd;
+    text-transform: none;
+    border: none;
+    border: .3rem solid rgba(0,0,0,.1);
+    border-radius: .5rem; 
+    width: 100%;
+}
+
+.delivery .row form textarea{
+    height:  5rem;
+    resize: none;
+}
+
+.delivery .row form .btn{
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color: #000; 
+    font-size: 1rem; 
+    width: 7rem; 
+    background-color: #ffee00; 
+    border-radius: .5rem; 
+    border: none; 
+    padding: 0.2rem; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem;
+}
+
+
+/* footer section  */
+.footer{
+    padding-top: 3rem;
+}
+
+.footer h5{
+    margin-bottom: 3px;
+    color: #ffee00;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer p{
+    color: #fff;
+    font-style: normal;
+    font-size: 17px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+}
+
+.footer h6{
+    color: #ffee00;
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}

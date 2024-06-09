@@ -1,0 +1,53 @@
+*{
+    background-color: black;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.about .content h5{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #ffe600;
+    font-style: italic;
+    text-align: center;
+    text-transform: none; 
+}
+
+.about .content h4{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: azure;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.about .content h3{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.about .content img{
+    width: 60%;
+    height: 60%;
+}
+
+@media all and (max-width: 480px){
+    img{
+         width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+
+*{
+    background-color: black;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 12px;
+}
+
+header p{
+    font-style: italic;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+    text-transform: none; 
+}
+
+.privacy .content h3{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.privacy .content p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    color: azure;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.privacy .content span{
+    color: #ffe600;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-transform: none; 
+}
